@@ -1,0 +1,157 @@
+#hero{
+    height: 900px;
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 400px;
+    .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        
+            h1{
+                text-align: center;
+                color: white;
+                font-size: 50px;
+            }
+            button{
+               font-size: 25px;
+                background-color: transparent;
+                color: white;
+                padding: 15px;
+                border: 1px solid white;
+            }
+        
+    }
+  
+   
+}
+
+#chef{
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        .left{
+            height: 100%;
+            img{
+                width: 100%;
+            }
+        }
+        .right{
+            padding: 100px 0 100px 100px;
+            display: flex;
+            flex-direction: column;
+            p{
+                color: gray;
+            }
+            h3{
+                font-size: 25px;
+                letter-spacing: 1px;
+            }
+            .paragrafs{
+                padding-top: 50px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                p{
+                letter-spacing: 1px;
+
+
+                }
+            }
+        }
+    }
+
+}
+
+#menu{
+    padding: 100px 0;
+    background-color: #fafafa;
+    .container{
+
+        .top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            p{
+                color: gray;
+            }
+            h2{
+                font-size: 30px;
+            }
+            .selects{
+                padding-top: 80px;
+                display: flex;
+                gap: 20px;
+                .select{
+                    color: gray;
+                    font-size: 20px;
+                    padding: 20px;
+                    display: flex;
+                    gap: 10px;
+                    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                }
+                .select:nth-child(1){
+                    background-color: #ffb400;
+                }
+            }
+        }
+        .menus{
+            padding-top: 100px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            .menu{
+                padding: 10px;
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .img{
+                    width: 100px;
+                    height: 100px;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                    }
+                }
+                .about{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    p{
+                        color: gray;
+                    }
+                }
+                h3{
+                    font-size: 30px;
+                }
+            }
+        }
+        .bottom{
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            p{
+                color: gray;
+            }
+            button{
+                background-color: transparent;
+                border: 3px solid #ffb400;
+                padding: 10px;
+                font-size: 20px;
+                color: #ffb400;
+            }
+        }
+        
+    }
+}
